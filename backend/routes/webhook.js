@@ -37,7 +37,8 @@ router.post('/lead', async (req, res) => {
 // Test endpoint for manual testing
 router.post('/test', async (req, res) => {
   try {
-    const testPayload = req.body || {
+    // Use default test data if body is empty or missing required fields
+    const testPayload = (req.body && Object.keys(req.body).length > 0) ? req.body : {
       name: 'Test Lead',
       email: 'test@example.com',
       company: 'Test Company',
