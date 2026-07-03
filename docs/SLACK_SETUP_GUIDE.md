@@ -48,10 +48,7 @@ Skip to "Creating the Incoming Webhook" below.
 ### Step 5: Copy Your Webhook URL
 1. After clicking Allow, you'll be back on the Incoming Webhooks page
 2. Scroll down to **"Webhook URLs for Your Workspace"**
-3. You'll see a URL that looks like:
-   ```
-   https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX
-   ```
+3. You'll see a webhook URL starting with `https://hooks.slack.com/services/...`
 4. Click the **"Copy"** button next to it
 5. This is your Slack Webhook URL!
 
