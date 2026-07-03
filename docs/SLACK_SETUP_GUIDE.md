@@ -59,7 +59,6 @@ Skip to "Creating the Incoming Webhook" below.
 Your webhook URL should:
 - Start with `https://hooks.slack.com/services/`
 - Be a long string with slashes and random characters
-- Look like: `https://hooks.slack.com/services/T1234567890/B9876543210/abcdefghijklmnopqrstuvwx`
 
 ---
 
